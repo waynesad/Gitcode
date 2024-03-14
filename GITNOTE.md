@@ -98,9 +98,14 @@
 - git commit -m "日志信息" <文件名>
 - 实操示例![git commit](image-7.png)
 - git reflog 查看版本信息（版本号前七位）
-- git log 查看详细版本信息（完整版本号），提交作者提交时间等
+- git log 查看版本详细信息（完整版本号），提交作者提交时间等
 
-## 1.12 Git命令_修改文件
+## 1.13 Git命令_修改文件
 1. 基本语法
 - git add 修改后的文件
 - git restore <file> 放弃工作区的修改，回到未修改的状态
+- git restore --staged <file>..." to unstage
+
+## 1.14 Git命令_版本穿梭
+1. 基本语法
+- git reset --hard <版本号前七位>
