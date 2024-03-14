@@ -209,6 +209,8 @@
 - 打开id_rsa.pub复制内容
 - 打开GitHub网站，点击头像下的settings，在左侧点击SSH and GPC keys，创建SSH keys，然后粘贴公钥内容即可。
 
+## 3.1 GitLab_
+
 
 
 
