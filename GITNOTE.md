@@ -183,6 +183,25 @@
 - git pull 远程库别名 分支
 - ![拉取代码](image\image-21.png)
 
+## 2.4 GitHub_克隆远程库到本地
+1. 克隆远程库
+- git clone 远程库HTTPS链接
+- 克隆代码不需要登录账号,因为这是开源库
+- clone会做如下操作：1.拉取代码 2.初始化本地仓库 3.创建别名 origin
+
+## 2.5 GitHub_团队内协作
+1. 团队内推送代码
+- git push 远程库链接 分支
+- 没有权限给别人的远程库推送代码，需要远程库的开发者邀请其他合作者进来，其他合作者才可以向该该远程库推送代码
+- 在settings的manage access处点击invite a collaborator后，输入被邀请合作者的GitHub邮箱，输入邮箱确认后在pending invite处复制链接发给合作者
+- 合作者同意申请后成为项目成员，项目成员拥有权限推送代码
+
+## 2.6 GitHub_跨团队协作
+1. GitHub左上角可以搜索各种各样的开源库
+2. 跨团队协作
+- 作为团队外的开发者，首先进入别人的项目，点击右上角Fork，即可在自己远程库中复制别人的项目，然后在本地库中克隆自己远程库的代码进行修改（也可以通过克隆别人的远程库到本地库进行修改），修改完成后的代码再push到自己的远程库。
+- click `Pull request`, then click `New request`, finally click `Create request`.
+- 
 
 
 
