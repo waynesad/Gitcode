@@ -44,7 +44,7 @@
 
 ## 1.6 Git概述_工作机制和代码托管中心
 1. 工作机制
- ![工作机制流程图](image-0.png)
+ ![工作机制流程图](image\image-0.png)
 2. 代码托管中心（即远程库）是基于网络服务器的远程代码仓库
 - 局域网: GitLab
 - 互联网： GitHub（外网）；Gitee（国内网站）
@@ -54,30 +54,30 @@
 2. 安装路径不能有中文与空格
 3. 推荐D:\Git
 4. Git选项配置，推荐默认配置
-![配置选项](image-1.png)
+![配置选项](image\image-1.png)
 5. 编辑器选择
-![编辑器选择](image-2.png)
+![编辑器选择](image\image-2.png)
 6. 其他默认配置
 7. 后台客户端连接协议，使用OpenSSL协议进行连接
 8. 安装每个界面都有解释，复习视频即可
 9. 在git bash中查询git版本
-![查询命令](image-3.png)
+![查询命令](image\image-3.png)
 
 ## 1.8 Git命令_设置用户签名
 1. Git常用命令
-![常用命令](image-4.png)
+![常用命令](image\image-4.png)
 2. 设置用户签名（设置一次即可，不设置的话提交代码会报错）
 - git config --global user.name 用户名
 - git config --global user.email 邮箱
 3. 在桌面打开git客户端，执行以下操作
-![设置用户签名](image-5.png)
+![设置用户签名](image\image-5.png)
 4. 在C盘下用户目录下的huangweiyuan文件夹中可以看到一个.config文件，文件里记录着配置好的用户签名
 5. 注意：用户签名和将来登录GitHUb（或其他代码托管中心）的账号没有任何关系，该处用户只是代表windows的本地Git客户端
 
 ## 1.9 Git命令_初始化本地库
 1. 基本语法
 - git init
-![git init](image-6.png)
+![git init](image\image-6.png)
 2. 初始化后会在本地库生成.git文件
 
 ## 1.10 Git命令_查看本地库命令
@@ -96,7 +96,7 @@
 ## 1.12 Git命令_提交本地库
 1. 基本语法
 - git commit -m "日志信息" <文件名>
-- 实操示例![git commit](image-7.png)
+- 实操示例![git commit](image\image-7.png)
 - git reflog 查看版本信息（版本号前七位）
 - git log 查看版本详细信息（完整版本号），提交作者提交时间等
 
@@ -109,8 +109,8 @@
 ## 1.14 Git命令_版本穿梭
 1. 基本语法
 - git reset --hard <版本号前七位>
-- 实操示例![git reset](image-8.png)
-- Git切换版本，底层其实是移动的HEAD指针，原理如下图：![指针移动](image-10.png)
+- 实操示例![git reset](image\image-8.png)
+- Git切换版本，底层其实是移动的HEAD指针，原理如下图：![指针移动](image\image-10.png)
 
 
 ## 1.15 Git分支_概述和优点
@@ -118,27 +118,27 @@
 - 在版本控制过程中，同时推进多个任务，为每个任务，我们可以创建每个任务的单独分支
 - 使用分支意味着程序员可以把自己的工作从开发主线上分离开来，开发自己分支的时候，不会影响主线分支的运行
    - 分支底层其实也是指针的引用
-2. ![分支流程](image-11.png)
+2. ![分支流程](image\image-11.png)
 3. 分支的好处
 - 同时并行推进多个功能开发
 - 各个分支在开发过程中，某一个分支开发失败，不会对其他分支有任何影响
 
 ## 1.16 Git分支_查看&创建&切换
-1. 分支的操作![分支命令](image-12.png)
+1. 分支的操作![分支命令](image\image-12.png)
 2. 查看分支
 - git branch -v
 3. 创建分支
 - git branch <分支名>
-- 实例操作![创建分支](image-13.png)
+- 实例操作![创建分支](image\image-13.png)
 1. 切换分支
 - git checkout <分支名>
-- 实例操作![切换分支](image-14.png)
+- 实例操作![切换分支](image\image-14.png)
 
 ## 1.17 Git分支_合并分支（正常合并）
 1. 合并分支
 - 要先切换到master分支上，然后合并其他分支
 - git merge <分支名>
-- 实例操作![合并分支](image-15.png)
+- 实例操作![合并分支](image\image-15.png)
 
 ## 1.18 Git分支_合并分支（冲突合并）
 1. 代码冲突合并
@@ -152,7 +152,7 @@
 - 远程库1`clone`到本地库2
 - 修改过后的本地库2再次`push`到远程库1（经过开发者同意）
 - 本地库1从远程库1`pull`更新的代码
-- ![流程演示](image.png)
+- ![流程演示](image\image.png)
 2. 跨团队协作
 - 远程库1`fork`到远程库2
 - 远程库2`clone`到本地库3
@@ -160,28 +160,28 @@
 - 远程库2发送`pull request`到远程库1
 - 远程库1对`pull request`进行审核，审核通过后远程库2可以merge到远程库1
 - 本地库1、2从远程库1`pull`更新的代码
-- ![流程演示](image-16.png)
+- ![流程演示](image\image-16.png)
 
 ## 2.1 GitHub_创建远程库&创建别名
 1. 创建远程仓库
--![创建远程仓库](image-17.png)
+-![创建远程仓库](image\image-17.png)
 - 远程库名字一般和本地库一样
-- 远程库连接：HTTPS和SSH。![远程库连接](image-18.png)
+- 远程库连接：HTTPS和SSH。![远程库连接](image\image-18.png)
 2. 创建远程库别名
 - git remote -v 查看当前所有远程地址别名
 - git remote add 别名 远程地址HHTPS
 - 后续方便通过别名直接向远程库进行push和pull操作
-- ![创建别名](image-19.png)
+- ![创建别名](image\image-19.png)
 
 ## 2.2 GitHub_推送本地库到远程库
 1. 推送代码
 - git push 远程库别名 分支
-- ![推送代码](image-20.png)
+- ![推送代码](image\image-20.png)
 
 ## 2.3 GitHub_拉取远程库到本地库
 1. 拉取代码
 - git pull 远程库别名 分支
-- ![拉取代码](image-21.png)
+- ![拉取代码](image\image-21.png)
 
 
 
