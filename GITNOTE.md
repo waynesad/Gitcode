@@ -209,7 +209,21 @@
 - 打开id_rsa.pub复制内容
 - 打开GitHub网站，点击头像下的settings，在左侧点击SSH and GPC keys，创建SSH keys，然后粘贴公钥内容即可。
 
-## 3.1 GitLab_
+## 3.1 GitLab_简介和安装环境准备
+1. GitLab简介：使用Git左为代码管理工具，并在此基础上搭建起来的web服务
+2. 如何搭建GitLab服务器
+
+## 3.2 GitLab_安装&初始化服务&启动服务
+## 3.3 GitLab_登录并创建远程库
+## 3.4 GitLab_IDEA集成GitLab
+- GitLab操作于GitHub类似，不再叙述
+
+## 4.1 Git_课程总结
+1. 熟悉常用的Git命令
+2. 忘了哪部分内容复习视频
+3. IDEA集成GitHub未学习
+
+
 
 
 
