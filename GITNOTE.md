@@ -96,3 +96,5 @@
 ## 1.12 Git命令_提交本地库
 1. 基本语法
 - git commit -m "日志信息" <文件名>
+- 实操示例![git commit](image-7.png)
+- 
