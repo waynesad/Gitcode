@@ -204,7 +204,10 @@
 - 开发者可以在GitHub上看到别人的`Pull request`，然后审核确认后点击merging即可合并代码。
 
 ## 2.7 GitHub_SSH免密登录
-1. 
+1. SSH免密登录
+- 在C盘打开用户文件夹，再打本地用户文件，打开git bash输入ssh-keygen -t rsa -C 815519343@qq.com，输入后敲三次回车键，会在该目录下生成.ssh文件夹，里面包含两个文件：id_rsa是私钥，id_rsa.pub是公钥
+- 打开id_rsa.pub复制内容
+- 打开GitHub网站，点击头像下的settings，在左侧点击SSH and GPC keys，创建SSH keys，然后粘贴公钥内容即可。
 
 
 
